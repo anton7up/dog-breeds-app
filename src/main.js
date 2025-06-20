@@ -44,7 +44,7 @@ async function showBreedDetail(breed) {
 
 backButton.addEventListener('click', () => {
   breedDetailEl.style.display = 'none';
-  breedListEl.style.display = 'grid';
+  breedListEl.style.display = 'block'; // исправлено с 'grid' на 'block'
 });
 
 fetchBreeds();
